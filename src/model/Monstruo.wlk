@@ -1,21 +1,12 @@
 class Monstruo
 {
-	var vida = 100
-	var potencialDefensivo
-	var danioAtaque
+	var property vida = 100
+	var property potencialDefensivo
+	var property danioAtaque
 	
 	constructor(_potencialDefensivo,_danioAtaque)
 	{
 		potencialDefensivo=_potencialDefensivo
-		danioAtaque=_danioAtaque
-	}
-	
-	method vida()=vida
-	
-	method potencialDefensivo() = potencialDefensivo
-	
-	method danioAtaque(_danioAtaque)
-	{
 		danioAtaque=_danioAtaque
 	}
 	

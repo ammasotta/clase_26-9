@@ -1,13 +1,10 @@
 class Alquimista{
-	var vida = 100
-	const itemsDeCombate = []
-	const itemsDeRecoleccion = []
+	var property vida = 100
+	const property itemsDeCombate = []
+	const property itemsDeRecoleccion = []
 	
-	method itemsDeCombate() = itemsDeCombate
-	method itemsDeRecoleccion() = itemsDeRecoleccion
 	method items() = itemsDeCombate + itemsDeRecoleccion
 	
-	method vida()=vida
 	
 	method tieneCriterio(){
 		return self.obtenerItemsEfectivos().size() >= self.cantidadDeItemsDeCombate() / 2
